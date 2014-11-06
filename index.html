@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>All About Apples</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/mycss.css" rel="stylesheet" media="screen">
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <div class="navbar navbar-inverse">
+              <div class="container">
+                  <a class="brand" href="#">Think Different!</a>
+                  <div class="nav-collapse collapse navbar-inverse-collapse">
+                    <ul class="nav pull-right">
+                      <li class="page-scroll"><a href="#">Home</a></li>
+                      <li class="page-scroll">
+                        <a href="#fact">Facts</a>
+                      </li>
+                      <li class="page-scroll"><a href="#statistics">Statistics</a></li>
+                    </ul> 
+                  </div><!-- /.nav-collapse -->
+                </div><!-- /navbar-inner -->
+            </div>
+            <div id="myCarousel" class="carousel slide">
+               <!-- Carousel indicators -->
+               <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" 
+                     class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+               </ol>   
+               <!-- Carousel items -->
+               <div class="carousel-inner">
+                  <div class="item active">
+                     <img src="./images/slide1.jpg" alt="First slide">
+                     <div class="carousel-caption">Because people who are crazy enough to think they can change the world...</div>
+                  </div>
+                  <div class="item">
+                     <img src="./images/slide2.jpg" alt="Second slide">
+                     <div class="carousel-caption">..are the ones who do..</div>
+                  </div>
+                  <div class="item">
+                     <img src="./images/slide3.jpg" alt="Third slide">
+                  </div>
+               </div>
+               <!-- Carousel nav -->
+               <a class="carousel-control left" href="#myCarousel" 
+                  data-slide="prev">&lsaquo;</a>
+               <a class="carousel-control right" href="#myCarousel" 
+                  data-slide="next">&rsaquo;</a>
+            </div> 
+            <script>
+               $(function(){
+                  // Initializes the carousel
+                  $(".start-slide").click(function(){
+                     $("#myCarousel").carousel('cycle');
+                  });
+                  // Stops the carousel
+                  $(".pause-slide").click(function(){
+                     $("#myCarousel").carousel('pause');
+                  });
+                  // Cycles to the previous item
+                  $(".prev-slide").click(function(){
+                     $("#myCarousel").carousel('prev');
+                  });
+                  // Cycles to the next item
+                  $(".next-slide").click(function(){
+                     $("#myCarousel").carousel('next');
+                  });
+                  // Cycles the carousel to a particular frame 
+                  $(".slide-one").click(function(){
+                     $("#myCarousel").carousel(0);
+                  });
+                  $(".slide-two").click(function(){
+                     $("#myCarousel").carousel(1);
+                  });
+                  $(".slide-three").click(function(){
+                     $("#myCarousel").carousel(2);
+                  });
+               });
+            </script>
+            <div class="yt-main-in2 row-fluid">
+                    <div id="top2" class="span12">
+           <!--section2-->
+             <section id="fact">
+              <div class="fact">
+                <h1>Some interesting facts about Apple<h1>
+              </div>
+              <div class="carousel-reviews">
+                  <div >
+                      <div>
+                          <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+                          
+                              <div class="carousel-inner">
+                                  <div class="item active">
+                                    <div class="col-md-4 col-sm-6">
+                                  <div class="block-text rel zmin">
+                                  <a>Fact #1</a>
+                                  <p>Apple iPad's retina display is actually manufactured by Samsung.</p>
+                                </div>
+                          </div>
+                                <div class="col-md-4 col-sm-6 hidden-xs">
+                              <div class="block-text rel zmin">
+                                  <a>Fact #2</a>
+                                  <p>Smoking near Apple computers voids the warranty.</p>
+                                  </div>
+                          </div>
+                          <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+                            <div class="block-text rel zmin">
+                              <a>Fact #3</a>
+                                <p>Apple has over 80,000 employees around the world. </p>
+                            </div>
+                          </div>
+                                  </div>
+                                  <div class="item">
+                                      <div class="col-md-4 col-sm-6">
+                                  <div class="block-text rel zmin">
+                                  <a>Fact #4</a>
+                                  <p>In Japan, there's a fan who started waiting in line 7 months early for iPhone 6.</p>
+                                </div>
+                          </div>
+                                <div class="col-md-4 col-sm-6 hidden-xs">
+                              <div class="block-text rel zmin">
+                                  <a>Fact #5</a>
+                                  <p>Apple headquarters' employees earn an average of US$125,000 a year.  </p>
+                                  </div>
+                          </div>
+                          <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+                            <div class="block-text rel zmin">
+                              <a>Fact #6</a>
+                                <p>Apple sold 340,000 iPhones per day in 2012. </p>
+                            </div>
+                          </div>
+                                  </div>
+                                  <div class="item">
+                                      <div class="col-md-4 col-sm-6">
+                                  <div class="block-text rel zmin">
+                                  <a>Fact #7</a>
+                                  <p>Apple earns US$300,000 per minute.</p>
+                                </div>
+                            
+                          </div>
+                                <div class="col-md-4 col-sm-6 hidden-xs">
+                              <div class="block-text rel zmin">
+                                  <a>Fact #8</a>
+                                  <p>Everything you say to Siri is sent to Apple, analyzed and stored. </p>
+                                  </div>
+                          </div>
+                          <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+                            <div class="block-text rel zmin">
+                              <a>Fact #9</a>
+                                <p>Apple's iPhone has higher sales than everything Microsoft has to offer. </p>
+                            </div>
+                          </div>
+                                  </div>                    
+                              </div>
+                              <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next">
+                                  >
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+             </section>
+             <section id="words">
+              <span class="think">"Here's to the crazy ones.</span > <span>  The rebels. The troublemakers.</span> <span> The ones who see things differently.</span> <span> While some may see them as the crazy ones, we see genius.</span> <span>Because the people who are crazy enough to think they can change the world, are the ones who do."</span>
+              <p>THINK DIFFERENT</p>
+             </section>
+            <section id="statistics">
+              <h1 class="statistics">Statistics on Apple</h1>
+              <p class="text">Today, Apple is among the most valuable brands in the world. The company has been generating billion dollar revenue figures for more than a decade. Throughout its long, and often tumultuous history, Apple has repeatedly proven itself as a pioneering force. When the company was first founded by Steve Jobs and Steve Wozniak in 1976, it was among the first companies working to produce and market personal computers for everyday use. Aside from a lull in the early nineties, coincidently while Steve Jobs was absent from the company, Apple has consistently maintained a prominent position in the global market.</p>
+              <div class="charts">
+                <div id="wrapper">
+                  <h3>Sales per Year</h3>
+                  <div id="q2_2010">
+                  <div id="q1_2010">
+                  <div id="q4_2009">
+                  <div id="q3_2009">
+                  <div id="q2_2009">
+                  <div id="q1_2005">
+                    <div id="labels">
+                      <ul>
+                        <li><span></span>iPhone</li>
+                        <li><span></span>MacBook</li>
+                        <li><span></span>iMac</li>
+                        <li><span></span>iPod</li>
+                        <li><span></span>iPad</li>
+                      </ul>
+                    </div>
+                    <div id="percentage_wrapper">
+                   <!--   <div id="percentage">
+                        <ul>
+                          <li><p>60.14%</p><p>61.79%</p><p>63.90%</p><p>67.02%</p><p>68.28%</p><p>89.68%</p></li>
+                          <li><p>24.98%</p><p>24.56%</p><p>24.39%</p><p>23.28%</p><p>23.22%</p><p>6.83%</p></li>
+                          <li><p>7.14%</p><p>6.03%</p><p>4.27%</p><p>3.08%</p><p>2.35%</p><p>0%</p></li>
+                          <li><p>5.10%</p><p>4.91%</p><p>4.64%</p><p>4.35%</p><p>3.89%</p><p>2.36%</p></li>
+                          <li><p>2.66%</p><p>2.73%</p><p>2.52%</p><p>2.29%</p><p>2.27%</p><p>1.15%</p></li>
+                        </ul>
+                      </div> -->
+                    </div>
+                    <div id="slider">
+                      <div id="chart_holder">
+                        <div id="pie_chart">
+                          <ul>
+                            <li id="c1_r"><p><span class="pie_left"></span></p></li>  
+                            <li id="c1_l"><p><span class="pie_right"></span></p></li>
+                            <li id="c2_r"><p><span class="pie_left"></span></p></li>  
+                            <li id="c2_l"><p><span class="pie_right"></span></p></li>
+                            <li id="c3_r"><p><span class="pie_left"></span></p></li>  
+                            <li id="c3_l"><p><span class="pie_right"></span></p></li>
+                            <li id="c4_r"><p><span class="pie_left"></span></p></li>  
+                            <li id="c4_l"><p><span class="pie_right"></span></p></li>
+                            <li id="c5_r"><p><span class="pie_left"></span></p></li>  
+                            <li id="c5_l"><p><span class="pie_right"></span></p></li>
+                          </ul>
+                        </div>
+                        <div id="pyr_chart">
+                          <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="btn_panel">
+                      <ul>
+                        <li><a href="#q1_2005"><span>2009</span><span>2009</span></a></li>
+                        <li><a href="#q2_2009"><span>2010</span><span>2010</span></a></li>
+                        <li><a href="#q3_2009"><span>2011</span><span>2011</span></a></li>
+                        <li><a href="#q4_2009"><span>2012</span><span>2012</span></a></li>
+                        <li><a href="#q1_2010"><span>2013</span><span>2013</span></a></li>
+                        <li><a href="#q2_2010"><span>2014</span><span>2014</span></a></li>
+                      </ul>
+                    </div>
+                  </div> <!--q1_2005-->
+                  </div> <!--q2_2009-->
+                  </div> <!--q3_2009-->
+                  </div> <!--q4_2009-->
+                  </div> <!--q1_2010-->
+                  </div> <!--q2_2010-->
+                </div>
+
+              </div>
+            </section>
+<section id="footer">
+<p class="copyright">@2014 Marianna Kavvadia</p>
+</section>
+
+
+         </body>
+</html>
